@@ -1,0 +1,142 @@
+.sidebar{
+    display: flex;
+    flex: 0.25;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.753);
+    height: 100vh;
+    
+}
+
+.sidebar_top{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    padding: 20px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.884)
+}
+.sidebar_channel{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.sidebar_channel_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    padding:10px 20px;
+
+}
+
+.sidebar_channel_text_expand{
+    display: flex;
+}
+
+.sidebar_channel_list_display{
+    display: flex;
+   
+    align-items: center;
+    color: grey;
+    padding:10px 40px;
+    text-align: center;
+}
+
+.sidebar_channel_list_display:hover{
+    background-color: grey;
+    color:white;
+}
+
+.sidebar_footer_connect{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    border-top: 2px solid grey;
+  
+}
+
+.sidebar_footer_connect_text h4{
+    
+    margin : 0;
+    padding: 0;
+    color: rgb(47, 206, 255)
+    
+}
+
+.sidebar_footer_connect_text p{
+    
+    margin : 0;
+    padding: 0;
+   color:grey;
+   font-size: 80%
+    
+}
+
+.sidebar_signal{
+    font-size:120%;
+    color: rgb(47, 206, 255);
+    padding:10px;
+}
+
+.sidebar_footer_connect_icons{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: grey
+
+}
+
+.sidebar_footer_connect_icons > .MuiSvgIcon-root{
+    font-size: 95%;
+    margin: 10px;
+
+}
+
+.sidebar_footer_user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    border-top: 2px solid grey;
+  
+}
+
+.sidebar_footer_user_text h4{
+    
+    margin : 0;
+    padding: 0;
+    color: white
+    
+}
+
+.sidebar_footer_user_text p{
+    
+    margin : 0;
+    padding: 0;
+   color:grey;
+   font-size: 80%
+    
+}
+
+.sidebar_avatar{
+    font-size:250% !important;
+    padding:10px 2px;
+}
+
+.sidebar_footer_user_icons{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: grey;
+
+}
+
+.sidebar_footer_user_icons > .MuiSvgIcon-root{
+    font-size: 95%;
+    margin: 10px;
+
+}
