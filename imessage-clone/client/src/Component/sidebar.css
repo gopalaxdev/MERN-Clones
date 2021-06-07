@@ -1,0 +1,76 @@
+.sidebar{
+    display: flex;
+    flex:0.35;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.185);
+    height: 100vh;
+    border-right: 1px solid lightgrey
+}
+
+.sidebar_search_icon{
+   
+}
+.sidebar_header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px 
+}
+
+.search{
+    display: flex;
+    flex:1;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding:2px;
+    background-color: rgba(128, 128, 128, 0.281)
+}
+
+.search input{
+    width   : 100%;
+    border:none;
+    text-align: center;
+    outline: none;
+    background: transparent
+}
+
+.sidebar_avatar{
+    padding:10px;
+    font-size: 40px !important;
+}
+
+.sidebar_chat_icon{
+    padding:10px;
+}
+
+.sidebarchat_comp{
+    display: flex;
+    
+    align-items: center;
+    border-bottom: 1px solid lightgrey; 
+}
+
+.sidebarchat_comp_details p{
+    padding: 0;
+    margin: 0
+}
+
+.channel_name{
+    padding: 0;
+    margin: 0
+}
+
+.sidebarchat_comp_details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar_timestamp{
+    padding-right:20px !important;
+    padding-left:20px !important;
+    font-size: 75%
+}
+
+.channel_name_last{
+    font-size: 90%
+}
